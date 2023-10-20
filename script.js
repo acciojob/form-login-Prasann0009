@@ -1,7 +1,7 @@
 function getFormvalue() {
    //Write your code here
-   var fn=document.getElementsByName("fname");
-  var ln=document.getElementsByName("lname");
+   var fn=document.getElementById("fname");
+  var ln=document.getElementById("lname");
 
-  window.alert(fn+" "+ln);
+   alert(fn.value+" "+ln.value);
 }
